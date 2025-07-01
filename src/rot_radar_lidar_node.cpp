@@ -467,7 +467,7 @@ void saveLiDARRotorFile(std::string filename)
 
       // save to a data log
       // Initial (x y z) Raw (x y z) intensity angle time
-      fprintf(file,"%lf %lf %lf %lf %lf %lf %d %lf %lf \n", pt_trans.x, pt_trans.y, pt_trans.z, point.x, point.y, point.z, rotAngular, tmpTime);
+      fprintf(file,"%lf %lf %lf %lf %lf %lf %lf %lf \n", pt_trans.x, pt_trans.y, pt_trans.z, point.x, point.y, point.z, rotAngular, tmpTime);
     }
   }
 
